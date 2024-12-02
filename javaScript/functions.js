@@ -155,6 +155,9 @@ let promise = new Promise((resolve, reject) => {
 
 })
 
+console.log("hello");
+
+
 promise.then((res) => {
     console.log("response", res);
     
