@@ -164,7 +164,6 @@ promise.then((res) => {
 })
 .catch((err) => {
     console.log("this is error", err);
-    
 })
 console.log(promise);
 
